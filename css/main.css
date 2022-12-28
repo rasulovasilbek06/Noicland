@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 body{
     display: flex;
@@ -44,7 +45,7 @@ ul li{
 a{
     text-decoration: none;
 }
-.intro{
+    .intro{
     margin-top: 60px;
 }
 .author{
@@ -57,6 +58,7 @@ a{
 }
 .author .author-name{
     margin-left: 5px;
+    font-weight: 700;
 }
 
 /* header */
@@ -107,6 +109,7 @@ a{
     padding: 5px 50px 1px;
 }
 .intro-text{
+    width: 390px;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -115,8 +118,9 @@ a{
     font-family: 'Source Serif Pro', serif;
 }
 .intro-title{
+    width: 430px;
     font-size: 36px;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 42px;
     text-transform: uppercase;
     color: #000000;
@@ -138,7 +142,7 @@ a{
 }
 .card-text{
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 450;
     line-height: 24px;
     margin-bottom: 15.23px;
     text-transform: uppercase;
@@ -197,7 +201,8 @@ a{
     margin-bottom: 90px;
 }
 
-/* footer */
+/* site footer */
+
 .footer{
     width: 100%;
     min-height: 730px;
@@ -224,10 +229,14 @@ a{
     font-family: 'Libre Franklin', sans-serif;
 }
 .menu li{
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 .sub{
     margin-top: 60px;
+}
+.menu {
+    margin-top: 18px;
+    margin-right: 53px;
 }
 .subtitle{
     font-size: 10px;
@@ -240,7 +249,7 @@ a{
     font-family: 'Libre Franklin', sans-serif;
 }
 .mr{
-    margin-right: 180px;
+    margin-right: 170px;
 }
 .input{
     width: 221px;
@@ -275,5 +284,11 @@ a{
 }
 .footer-to-left-first {
     margin-left: -30px;
+}
+.input__change {
+    margin-top: 5px;
+}
+.margin__to--right {
+    margin-left: -40px;
 }
 /* /footer */
